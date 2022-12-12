@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+        int main() {
+        char username[20];
+        char email[50];
+        char country[20];
+        double number;
+        
+            printf("Enter Your Username :");
+            scanf("%s" , &username);
+            printf("\nEntrer Your Email :");
+            scanf("%s" , &email);
+            printf("\nEnter Your Country :");
+            scanf("%s" , &country);
+            printf("Enter Your Phone Number:");
+            scanf("%lf" , &number);
+        
+        
+        printf("Your Username is : %s " , username);
+        printf("\nYour Email is : %s " , email);
+        printf("\nYour Country is : %s " , country);
+        printf("\nYour Phone Number is : %lf " , number);
+    
+    
+    return 0;
+}
